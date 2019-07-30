@@ -1,8 +1,8 @@
 {
-  "name": "@author.io/element-__ELEMENT_NAME__",
+  "name": "@author.io/element-drop-target",
   "version": "1.0.0",
-  "description": "author-__ELEMENT_NAME__ custom element (web component).",
-  "main": "dist/author-__ELEMENT_NAME__.min.js",
+  "description": "author-drop-target custom element (web component).",
+  "main": "dist/author-drop-target.min.js",
   "scripts": {
     "build": "npm run clean && rollup -c ./rollup.release.config.js",
     "build-dev": "npm run build && npm run build-showroom",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author-elements/__ELEMENT_NAME__.git"
+    "url": "git+https://github.com/author-elements/drop-target.git"
   },
   "keywords": [
     "author",
@@ -33,7 +33,7 @@
     "component",
     "custom",
     "element",
-    "__ELEMENT_NAME__",
+    "drop-target",
     "chassis",
     "ngn"
   ],
@@ -53,9 +53,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/author-elements/__ELEMENT_NAME__/issues"
+    "url": "https://github.com/author-elements/drop-target/issues"
   },
-  "homepage": "https://github.com/author-elements/__ELEMENT_NAME__#readme",
+  "homepage": "https://github.com/author-elements/drop-target#readme",
   "devDependencies": {
     "@author.io/karma-customelements": "^1.1.11",
     "@author.io/rollup-plugin-wcbuilder": "^1.1.4",

@@ -1,4 +1,4 @@
-const customize = require('@author.io/karma-customelements')('test/es6-modules', './dist/author-__ELEMENT_NAME__.js', 'BrowserStack')
+const customize = require('@author.io/karma-customelements')('test/es6-modules', './dist/author-drop-target.js', 'BrowserStack')
 
 module.exports = config => {
   config.set(Object.assign(customize(config, true, true), {

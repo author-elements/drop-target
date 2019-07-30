@@ -4,7 +4,7 @@ import {terser} from 'rollup-plugin-terser'
 import wcbuilder from '@author.io/rollup-plugin-wcbuilder'
 
 const input = './src/element.js'
-const outfile = 'author-__ELEMENT_NAME__.js'
+const outfile = 'author-drop-target.js'
 const outdir = './dist'
 const format = 'iife'
 const pkg = require('./package.json')
@@ -22,7 +22,7 @@ const babelConfig = {
 
 const output = file => {
 	return {
-		name: '__ELEMENT_CLASS-NAME__',
+		name: 'AuthorDropTargetElement',
 		file: `${outdir}/${outfile.replace(require('path').extname(outfile), '')}${file}`,
 		format,
 		banner,

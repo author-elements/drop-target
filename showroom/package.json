@@ -1,7 +1,7 @@
 {
-  "name": "author-__ELEMENT_NAME__-showroom",
+  "name": "author-drop-target-showroom",
   "version": "1.0.0",
-  "description": "Demo for author-__ELEMENT_NAME__ component",
+  "description": "Demo for author-drop-target component",
   "main": "index.js",
   "scripts": {
     "build": "node build.js --prod",
@@ -12,12 +12,13 @@
   "author": "Graham Butler",
   "license": "MIT",
   "devDependencies": {
-    "@chassis/core": "^2.3.3",
+    "@chassis/core": "^2.3.9",
     "productionline-web": "^1.1.8"
   },
   "dependencies": {
     "@author.io/element-base": "^1.1.1",
     "@author.io/element-control": "^1.0.8",
+    "@author.io/element-draggable": "^1.0.0",
     "@author.io/element-menu": "^1.0.1",
     "@author.io/element-optgroup": "^1.0.1",
     "@author.io/element-optgroup-label": "^1.0.1",
